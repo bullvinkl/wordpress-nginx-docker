@@ -14,5 +14,3 @@ chmod +x /usr/local/bin/docker-compose
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 firewall-cmd --zone=public --add-masquerade --permanent
 firewall-cmd --reload
-
-mkdir -p certs/ certs-data/ logs/nginx/ mysql/ wordpress
