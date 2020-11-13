@@ -1,10 +1,10 @@
 #.env*
-.idea/
+#.idea/
 certs/.blank
 certs-data/.blank
-logs/.blank
+logs/nginx/.blank
 nginx/.blank
 mysql/.blank
-wordpress/
-!.env_example
-!nginx/default*
+wordpress/.blank
+#!.env_example
+#!nginx/default*
